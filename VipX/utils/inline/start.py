@@ -64,7 +64,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="🌱ѕσʋяcɛ🌱",
-                url=f"https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
+                url=f"https://github.com/ICC-TG-BOT/BOXER",
             )
         ],
      ]
