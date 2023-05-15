@@ -52,12 +52,12 @@ async def init():
     await userbot.start()
     await Vip.start()
     try:
-        await Vip.stream_decall("https://telegra.ph/file/de3464aa7d6bfafdd2dc3.mp4")
+        await Vip.stream_decall("https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg")
     except:
         pass
     try:
         await Vip.stream_call(
-            "https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4"
+            "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg"
         )
     except NoActiveGroupCall:
         LOGGER("VipX").error(
@@ -67,7 +67,7 @@ async def init():
     except:
         pass
     await Vip.decorators()
-    LOGGER("VipX").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗧𝗢𝗫𝗜𝗖 𝗕𝗢𝗬♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("VipX").info("╔═════ஜ۩۞۩ஜ════╗\n ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗧𝗢𝗫𝗜𝗖 𝗕𝗢𝗬♨️\n ╚═════ஜ۩۞۩ஜ════╝")
     await idle()
 
 
