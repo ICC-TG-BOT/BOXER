@@ -8,14 +8,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "22733485"))
+API_HASH = getenv("API_HASH", "e6095dc075ad1ef78eb7697ece6d6feb")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "6014108753:AAHuFWY_2qJV8EWzXox1Y0QqV8hKuT01eSc")
 
 # Database to save your chats and stats... Get MongoDB:-  
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://AbhiModszYT:AbhiModszYT@abhimodszyt.flmdtda.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -28,33 +28,33 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001817381461"))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "VIP MUSIC")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "6020570673").split())
 )  # Input type must be interger
-YOUR_GROUP = getenv("YOUR_GROUP", "")
+YOUR_GROUP = getenv("YOUR_GROUP", "https://t.me/indian_chatting_club_offical")
 
-YOUR_CHANNEL = getenv("YOUR_CHANNEL", "")
+YOUR_CHANNEL = getenv("YOUR_CHANNEL", "https://t.me/TOXIC_UPDATES_OFFICIAL")
 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ToXiC_BoY_OFFICIAL")
 
 
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "d0fea027-5831-437c-9bcd-dfbc9f373fe7")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "maa-ka-ladla")
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
+    "https://github.com/ICC-TG-BOT/BOXER",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -132,7 +132,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQBAR0jTZn00FsmAh6Mzk8sOz9Y2vcvi9XTubdSB2vCiMGmNIKW8aOexIOTki-JTY_s6sJcimyabJ-keAwdhwXhS4KOO-2SKJTUmzB8WXV3zsbywSDuQcPDpzNRIwDELXLCgT1tj6qZ703n5aKkT6xu8nbUilTL0wjs2Ng4Knr7aQ6wFDiQuKFcSuRTGadBqHYiB84baEr7MOA3YtWc0Zf1agVLdecq4dXu3_CygnjUUwcNljh4a949ZePPSPsnmR7h1Bssn6A_W_fXK81ii7Z0bXs6-Xfl5AmOXLbz3Pp3W16tLG9MnoHYk5XzuUdXQR-UTBrB41f9QrxEzuPbpq07SAAAAAXYC6QcA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -162,66 +162,66 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg",
 )
 
 
