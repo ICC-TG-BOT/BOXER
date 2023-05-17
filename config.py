@@ -31,7 +31,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001817381461"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "VIP MUSIC")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "TOXIC MUSIC")
 
 # Your User ID.
 OWNER_ID = list(
@@ -46,10 +46,10 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "ToXiC_BoY_OFFICIAL")
 
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", "d0fea027-5831-437c-9bcd-dfbc9f373fe7")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "d3d097ad-7503-4200-b7f2-7b4e13545f2f") 
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "maa-ka-ladla")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "music-toxic-boy")
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
