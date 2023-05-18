@@ -46,7 +46,7 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "ToXiC_BoY_OFFICIAL")
 
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", "f04c0947-639a-492e-90b0-92135ecf1044") 
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "5df78882-53e8-4b19-b8af-fde77ba88782") 
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "aag-babula-bot")
