@@ -65,7 +65,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="🌷ѕσʋяcɛ🌷", 
               
-                url=f"https://github.com/ICC-TG-BOT/BOXER",
+                url=f"https://te.legra.ph/file/94ac7b6ffc9e8b8f8cce0.mp4",
             )
         ],
      ]
