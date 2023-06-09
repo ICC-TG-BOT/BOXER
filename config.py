@@ -46,10 +46,10 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "ToXiC_BoY_OFFICIAL")
 
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", "5df78882-53e8-4b19-b8af-fde77ba88782") 
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "1e52988a-b690-4a39-bc27-5222454b2be6") 
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "aag-babula-boty")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "toxic-indian-bot")
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
