@@ -35,13 +35,13 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "TOXIC MUSIC")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6020570673").split())
+    map(int, getenv("OWNER_ID", "6268992178").split())
 )  # Input type must be interger
 YOUR_GROUP = getenv("YOUR_GROUP", "https://t.me/Digital_word_chating")
 
 YOUR_CHANNEL = getenv("YOUR_CHANNEL", "https://t.me/TOXIC_UPDATES_OFFICIAL")
 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "ToXiC_BoY_OFFICIAL")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "MR_STRANGE_OFFICIAL")
 
 
 
