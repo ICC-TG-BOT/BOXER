@@ -28,7 +28,7 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001817381461"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001897826135"))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "TOXIC MUSIC")
@@ -37,7 +37,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "TOXIC MUSIC")
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "6020570673").split())
 )  # Input type must be interger
-YOUR_GROUP = getenv("YOUR_GROUP", "https://t.me/indian_chatting_club_offical")
+YOUR_GROUP = getenv("YOUR_GROUP", "https://t.me/Digital_word_chating")
 
 YOUR_CHANNEL = getenv("YOUR_CHANNEL", "https://t.me/TOXIC_UPDATES_OFFICIAL")
 
@@ -63,7 +63,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/TOXIC_UPDATES_OFFICIAL")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/indian_chatting_club_offical")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Digital_word_chating")
 SUPPORT_HEHE = SUPPORT_GROUP
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
